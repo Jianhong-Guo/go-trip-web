@@ -1,0 +1,11 @@
+
+#footer {
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	margin-top: 130px;
+
+	background-color: rgba(235, 228, 233, 0.603);
+	height: 120px;
+	/* box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px; */
+}

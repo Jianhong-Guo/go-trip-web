@@ -1,0 +1,28 @@
+{
+    "name": "go_trip",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "setup": "npm install && cd go-trip && npm install && cd ..",
+        "build-run": "cd go-trip && npm run build && cd .. && node server.js",
+        "start": "node server.js",
+        "heroku-postbuild": "cd go-trip && npm install && npm run build",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.19.0",
+        "cloudinary": "^1.27.1",
+        "connect-mongo": "^4.6.0",
+        "connect-multiparty": "^2.2.0",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "express-session": "^1.17.2",
+        "mongodb": "^4.2.1",
+        "mongoose": "^6.0.14",
+        "validator": "^13.7.0"
+    }
+}

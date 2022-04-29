@@ -1,0 +1,24 @@
+.up {
+    font-family: Garamond;
+}
+
+.proposalGrid {
+    margin-top: 30px;
+    position: relative;
+    margin-left: 20%;
+    width: 50%;
+}
+
+.uploadProposalImage{
+    position: absolute;
+    top: 20%;
+    left: 80%;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.imageError{
+    color: red
+}

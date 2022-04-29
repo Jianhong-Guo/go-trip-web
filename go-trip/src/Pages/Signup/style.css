@@ -1,0 +1,16 @@
+.signup_center {
+    position: relative;
+    margin-top: 30px;
+    left: 10%;
+    width: 50%;
+}
+
+.signup_selector{
+    position: absolute;
+    top: 20%;
+    left: 80%;
+}
+
+.link{
+    text-decoration: none;
+}

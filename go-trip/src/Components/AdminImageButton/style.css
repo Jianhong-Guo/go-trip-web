@@ -1,0 +1,55 @@
+.admin_image_button_img{
+    transition: 0.3s;
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.admin_image_button_text_container{
+    opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	width: 150px;
+    height: 150px;
+	background: rgba(70, 62, 70, 0.6);
+	transition: all 0.2s ease-in-out 0s;
+}
+
+.admin_image_button_text_container:hover{
+    opacity: 1;
+}
+.admin_image_button_text{
+    text-align: center;
+    color:white;
+    position: absolute;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.admin_image_button_link_container{
+    position:absolute;
+}
+
+.admin_image_button_div{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    position: relative;
+    box-shadow: rgba(129, 31, 113, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.admin_image_button_button{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    opacity: 0;
+    top: 0;
+    left: 0;
+}
+

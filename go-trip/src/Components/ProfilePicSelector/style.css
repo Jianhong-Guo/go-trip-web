@@ -1,0 +1,36 @@
+.square{
+    width: 150px;
+    height: 150px;
+    display: block;
+    background-color: rgb(216, 216, 216);
+    border: none;
+    color: rgb(101, 101, 101);
+}
+.square_image{
+    width: 150px;
+    height: 150px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.round_image{
+    width: 150px;
+    height: 150px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 50%;
+}
+
+.round{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    background-color: rgb(216, 216, 216);
+    border: none;
+    color: rgb(101, 101, 101);
+}

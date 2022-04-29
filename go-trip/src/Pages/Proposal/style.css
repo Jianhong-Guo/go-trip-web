@@ -1,0 +1,193 @@
+.profilePic1 {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin: 30px;
+  margin-right: 10px;
+}
+.profilePic2 {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 20px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.allContent {
+  margin-left: 80px;
+  min-height: 80px;
+  display: flex;
+}
+
+.proposalContent {
+  background-color: white;
+  overflow: auto;
+  min-height: 100px;
+  margin-top: 30px;
+  width: 70%;
+}
+
+.proposalInfo {
+  margin-top: 30px;
+  color: black;
+  font-family: Garamond;
+  text-align: left;
+  font-size: 15px;
+  width: 80%;
+  font-weight: bold;
+}
+
+.proposalPicInfo {
+  display: flex;
+}
+
+.attractionContainer {
+  margin: 30px;
+  margin-bottom: 0px;
+}
+
+.attraction {
+  color: black;
+  font-family: monospace;
+  text-align: left;
+  font-size: 25px;
+  width: 70%;
+  font-weight: bold;
+}
+
+.proposalPic {
+  height: 300px;
+  margin: 30px;
+  margin-top: 10px;
+}
+
+.username {
+  color: black;
+  font-family: Times New Roman;
+  text-align: left;
+  font-size: 20px;
+}
+
+.inputSubmit {
+  margin-left: 80px;
+  max-width: 80%;
+}
+
+.commentContainer{
+  width: 100%;
+  background-color: whitesmoke;
+  padding: 10px;
+}
+.joinedListContainer{
+  margin-top: 10px;
+  background-color: rgb(238, 235, 229);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+  padding-left: 5px;
+  max-width: 80%;
+}
+.joinedList {
+  padding-left:15px;
+}
+
+.edit_delete {
+  margin-top: 20px;
+  align-self: center;
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #726f6a;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 1rem;
+  line-height: 23px;
+  outline: none;
+  padding: .75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.edit_delete:hover {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+.edit_delete:focus {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
+
+.joinButton {
+  background: linear-gradient(to bottom right, #EF4765, rgb(235, 228, 233));
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.joinButton:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.joinButton:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.quitButton {
+  background: linear-gradient(to bottom right, #aca4a5, rgb(235, 228, 233));
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.quitButton:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(202, 151, 161, 0.5), .125rem .125rem 1rem rgba(138, 119, 108, 0.5);
+}
+
+.quitButton:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(131, 94, 101, 0.5), .125rem .125rem 1rem rgba(221, 161, 124, 0.5);
+}
